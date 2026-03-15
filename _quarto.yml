@@ -1,3 +1,16 @@
 project:
   type: website
   output-dir: docs
+
+website:
+  title: "文宇佳的个人主页"
+  navbar:
+    left:
+      - href: index.qmd
+        text: 主页
+      - href: about.qmd
+        text: 关于
+
+format:
+  html:
+    theme: cosmo
